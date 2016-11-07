@@ -1,14 +1,16 @@
 #!/usr/bin/env node
-'use strict'
-const server = require('../lib/server')
+'use strict';
+
+const server = require('../lib/server');
 
 server.start({
   // apiURL: 'http://interview-api.waltzlabs.com/api/v1'
-  apiURL: 'http://localhost:3001'
-}, function (err, server) {
+  apiURL: 'http://localhost:3001',
+}, (err, server) => {
   if (err) {
-    console.log('ERROR starting server', err)
-    throw err
+    console.log('ERROR starting server', err);
+    throw err;
   }
-  console.log('Listening on port ' + server.address().port)
-})
+
+  console.log('Listening on port ' + server.address().port);
+});
