@@ -1,0 +1,39 @@
+{
+  "name": "@shawninder/waltz-weekly-attendance",
+  "version": "1.0.0",
+  "description": "Node.js server that can list which party leaders are expected to be present for each day of the requested week",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "./bin/start",
+    "dev": "nodemon ./bin/start",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawninder/waltz-weekly-attendance.git"
+  },
+  "keywords": [
+    "exercise"
+  ],
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawninder/waltz-weekly-attendance/issues"
+  },
+  "homepage": "https://github.com/shawninder/waltz-weekly-attendance#readme",
+  "dependencies": {
+    "connect": "^3.5.0",
+    "qs": "^6.3.0",
+    "request": "^2.78.0",
+    "xdate": "^0.8.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "contributors": [
+    "Shawn Inder <shawninder@gmail.com>"
+  ],
+  "engines": {
+    "node": "6.x"
+  }
+}
