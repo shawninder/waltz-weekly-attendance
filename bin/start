@@ -4,8 +4,8 @@
 const server = require('../lib/server');
 
 server.start({
-  // apiURL: 'http://interview-api.waltzlabs.com/api/v1'
-  apiURL: 'http://localhost:3001',
+  apiURL: 'http://interview-api.waltzlabs.com/api/v1',
+  // apiURL: 'http://localhost:3001',
 }, (err, server) => {
   if (err) {
     console.log('ERROR starting server', err);
