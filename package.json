@@ -4,9 +4,7 @@
   "description": "Node.js server that can list which party leaders are expected to be present for each day of the requested week",
   "main": "lib/index.js",
   "scripts": {
-    "start": "./bin/start",
-    "dev": "nodemon ./bin/start",
-    "test": "ava"
+    "start": "./bin/start"
   },
   "repository": {
     "type": "git",
@@ -26,9 +24,6 @@
     "qs": "^6.3.0",
     "request": "^2.78.0",
     "xdate": "^0.8.0"
-  },
-  "devDependencies": {
-    "ava": "^0.16.0"
   },
   "contributors": [
     "Shawn Inder <shawninder@gmail.com>"
