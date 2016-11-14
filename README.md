@@ -58,6 +58,14 @@ npm test
 
 Use `npm run test-dev` to watch source code and automatically re-run tests when it changes.
 
+## Development
+
+```sh
+npm run dev
+```
+
+This is the same as `npm start`, except it watches the source files and re-launches if they change.
+
 #### Known problems
 
 See this repo's issues
