@@ -44,7 +44,7 @@ See [nowjs](https://zeit.co/now)
 All the data is obtained from the following API: http://interview-api.waltzlabs.com/api/v1
 It is re-fetched on every single request intentionally to make sure each request is answered using the latest available data.
 
-In this MVP, it is supposed that the data is all correct and that all the rules can be respected for each week. This is not the case, however, since the party assigned to Rona Ambrose (interim) is set to "Consevative" (notice the missing "r"), so none of the weeks can respect the PARTY_REPRESENTATION_BALANCE rule, which uses the correct spelling for that party.
+In this MVP, it is supposed that the data is all correct and that all the rules can be respected for each week.
 
 #### Dates
 
