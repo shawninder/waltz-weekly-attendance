@@ -56,7 +56,7 @@ This service supposes the dates provided are correctly parsed by [`Date.parse`](
 npm test
 ```
 
-Use `npm run test-dev` to watch source code and automatically re-run tests when it changes.
+Use `npm run test-dev` to watch source code and automatically re-run tests when it changes (using nodemon: `npm i -g nodemon`).
 
 ## Development
 
@@ -64,7 +64,7 @@ Use `npm run test-dev` to watch source code and automatically re-run tests when 
 npm run dev
 ```
 
-This is the same as `npm start`, except it watches the source files and re-launches if they change.
+This is the same as `npm start`, except it watches the source files and re-launches if they change (using nodemon: `npm i -g nodemon`).
 
 #### Known problems
 
