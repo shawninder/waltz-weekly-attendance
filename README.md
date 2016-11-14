@@ -50,6 +50,14 @@ In this MVP, it is supposed that the data is all correct and that all the rules 
 
 This service supposes the dates provided are correctly parsed by [`Date.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) and that they are all given in UTC (which seems to be the case as of this writing)
 
+## Tests
+
+```sh
+npm test
+```
+
+Use `npm run test-dev` to watch source code and automatically re-run tests when it changes.
+
 #### Known problems
 
 See this repo's issues
