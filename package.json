@@ -6,8 +6,8 @@
   "scripts": {
     "start": "./bin/start",
     "dev": "nodemon ./bin/start",
-    "test": "ava",
-    "test-dev": "ava --watch"
+    "test": "ava test/index.js",
+    "test-dev": "npm test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
   "dependencies": {
     "connect": "^3.5.0",
     "qs": "^6.3.0",
-    "request": "^2.78.0",
+    "requestretry": "^1.12.0",
+    "toobusy-js": "^0.5.1",
     "xdate": "^0.8.0"
   },
   "contributors": [
