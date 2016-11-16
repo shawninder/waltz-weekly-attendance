@@ -102,7 +102,7 @@ const weekFactory = function weekFactory(week) {
           t.is(schedule.length, week.expected.length);
           resolve();
         } catch (ex) {
-          t.fail("Can't JSON.parse response");
+          t.fail(`Can't JSON.parse response: ${body}`);
           reject(ex);
         }
       }
